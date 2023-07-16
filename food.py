@@ -2,13 +2,13 @@ from turtle import Turtle, Screen
 import random
 
 screen = Screen()
-screen.addshape("apple.gif")
+screen.addshape("assets/apple.gif")
 
 
 class Food(Turtle):
     def __init__(self):
         super().__init__()
-        self.shape("apple.gif")
+        self.shape("assets/apple.gif")
         self.penup()
         self.speed("fastest")
         self.shapesize(stretch_len=0.5, stretch_wid=0.5)
